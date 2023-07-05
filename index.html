@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Magzine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agdasima&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+
+        #autocar {
+            font-family: 'Fira Sans', sans-serif;
+            color: red;
+            font-size: 350px;
+            text-align: center;
+            position: relative;
+            bottom: 200px;
+            
+        }
+
+        #p1 {
+            font-weight: bolder;
+            position: relative;
+            bottom: 530px;
+            left: 20px;
+            font-size: 70px;
+        }
+
+        .two {
+            
+            border: 5px solid blue;
+            width: 1450px;
+            height: 770px;
+            position: relative;
+            bottom: 600px;
+            left: 20px;
+            
+        }
+
+        .twentytwo {
+            font-family: 'Agdasima', sans-serif;
+            font-size: 200px;
+            color: gold;
+            position: relative;
+            bottom: 230px;
+            font-weight: bolder;
+            
+        }
+
+        #nd {
+            font-family: 'Agdasima', sans-serif;
+            color: gold;
+            position: relative;
+            bottom: 640px;
+            left: 150px;
+            font-size: 80px;
+
+        }
+            
+        #anniversary {
+            font-family: 'Agdasima', sans-serif;
+            font-size: 110px;
+            color: gold;
+            position: relative;
+            bottom: 845px;
+            left: 210px;
+        }
+
+        #action {
+            font-size: 35px;
+            font-style: italic;
+            position: relative;
+            bottom: 965px;
+            left: 200px;
+        }
+
+        #evs {
+            font-family: 'Agdasima', sans-serif;
+            font-size: 190px;
+            color: rgb(74, 168, 205);
+            font-weight: bold;
+            position: relative;
+            bottom: 1335px;
+            left: 715px;
+
+        }
+
+        #exclusive {
+            font-weight: bolder;
+            position: relative;
+            bottom: 1560px;
+            left: 5px;
+            font-size: 28px;
+            color: red;
+            
+        }
+
+        #tesla {
+            position: relative;
+            bottom: 2652px;
+            left: 5px;
+            z-index: -1;
+            display: block;
+            height: 600px;
+            width: 920px;
+            
+        }
+
+        #tsla {
+            position: relative;
+            bottom: 1400px;
+            left: 15px;
+            font-size: 200px;
+            font-family: 'Agdasima', sans-serif;
+            font-weight: bolder;
+            color: white;
+        }
+
+        #model {
+            font-family: 'Agdasima', sans-serif;
+            font-size: 100px;
+            color: skyblue;
+            font-weight: bolder;
+            position: relative;
+            bottom: 1740px;
+            left: 350px;
+        }
+
+        #foryou {
+            font-family: 'Agdasima', sans-serif;
+            font-size: 60px;
+            color: white;
+            font-weight: bolder;
+            position: relative;
+            bottom: 1995px;
+            left: 650px;
+        }
+
+        #compared {
+            color: red;
+            font-size: 28px;
+            position: relative;
+            bottom: 3277.5px;
+            font-weight: bolder;
+            left: 932px;
+
+        }
+
+        #vs {
+            width: 515px;
+            position: relative;
+            bottom: 3340px;
+            left: 930px;
+            z-index: -1;
+            
+        }
+
+        #etron {
+            font-family: 'Agdasima', sans-serif;
+            position: relative;
+            bottom: 3690px;
+            left: 1030px;
+            font-size: 40px;
+            color: rgb(67, 147, 178);
+            font-weight: bolder;
+
+        }
+
+        #ss {
+            font-family: 'Agdasima', sans-serif;
+            position: relative;
+            bottom: 3763px;
+            left: 1123px;
+            font-size: 25px;
+            color: red;
+            font-weight: bolder;
+
+        }
+
+        #pace {
+            font-family: 'Agdasima', sans-serif;
+            position: relative;
+            bottom: 3846.5px;
+            left: 1155px;
+            font-size: 40px;
+            color: rgb(67, 147, 178);
+            font-weight: bolder;
+
+        }
+
+        #sv {
+            font-family: 'Agdasima', sans-serif;
+            position: relative;
+            bottom: 3920px;
+            left: 1250px;
+            font-size: 25px;
+            color: red;
+            font-weight: bolder;
+
+        }
+
+        #eqc {
+            font-family: 'Agdasima', sans-serif;
+            position: relative;
+            bottom: 4003px;
+            left: 1280px;
+            font-size: 40px;
+            color: rgb(67, 147, 178);
+            font-weight: bolder;
+        }
+
+        #luxury {
+            font-family: 'Agdasima', sans-serif;
+            position: relative;
+            bottom: 4043px;
+            left: 960px;
+            font-size: 40px;
+            color: black;
+        }
+
+        #sentence {
+            font-family: 'Roboto', sans-serif;
+            position: relative;
+            bottom: 3835px;
+            left: 930px;
+            font-size: 30px;
+            color: rgb(67, 147, 178);
+            font-weight: bolder;
+        }
+
+        #v {
+            font-family: 'Agdasima', sans-serif;
+            position: relative;
+            bottom: 4028px;
+            left: 1050px;
+            font-size: 40px;
+            color: black;
+            
+        }
+
+        #train {
+            font-family: 'Roboto', sans-serif;
+            position: relative;
+            bottom: 4238.5px;
+            left: 1080px;
+            font-size: 30px;
+            color: rgb(67, 147, 178);
+            font-weight: bolder;
+        }
+
+        #indias {
+            font-family: 'Agdasima', sans-serif;
+            position: relative;
+            bottom: 4143px;
+            left: 1150px;
+            font-size: 30px;
+            color: black;
+            
+        }
+
+        #restomod {
+            font-family: 'Agdasima', sans-serif;
+            position: relative;
+            bottom: 4100px;
+            left: 1200px;
+            font-size: 30px;
+            color: black;
+            
+        }
+
+        #skipping {
+            font-family: 'Agdasima', sans-serif;
+            position: relative;
+            bottom: 4303px;
+            left: 1165px;
+            font-size: 30px;
+            color: black;
+            
+        }
+
+        #Six {
+            font-family: 'Agdasima', sans-serif;
+            position: relative;
+            bottom: 4333px;
+            left: 1300px;
+            font-size: 30px;
+            color: black;
+            
+        }
+
+        #ola {
+            font-family: 'Agdasima', sans-serif;
+            position: relative;
+            bottom: 4328px;
+            left: 1145px;
+            font-size: 30px;
+            color: black;
+            
+        }
+
+        .three {
+            
+            display: inline-block;
+            height: 500px;
+            width: 900px;
+            
+            position: relative;
+            bottom: 650px;
+            left: 30px;
+            
+            
+        }
+
+        #imge1 {
+            float: left;
+            height: 400px;
+            width: 600px;
+
+        }
+
+        .mercedes {
+            font-family: 'Agdasima', sans-serif;
+            font-size: 6rem;
+             position: relative;
+             top: 20px;
+
+        }
+
+        #merceedes {
+            font-family: 'Agdasima', sans-serif;
+            font-size: 30px;
+            position: relative;
+            left: 20px;
+
+        }
+
+        .four {
+            display: inline-block;
+            height: 300px;
+            width: 400px;
+            
+            position: relative;
+            bottom: 640px;
+            left: 170px;
+            
+        }
+
+        #imge2 {
+            float: right;
+            height: 300px;
+            width: 400px;
+
+        }
+
+        .Volvo {
+            font-family: 'Agdasima', sans-serif;
+            font-size: 6rem;
+            color: red;
+
+        }
+
+        #volvo {
+            font-family: 'Agdasima', sans-serif;
+            font-size: 30px;
+
+        }
+
+        .five {
+            display: inline-block;
+            position: relative;
+            left: 80px;
+            bottom: 630px;
+        }
+
+
+        #merceimg {
+            height: 200px;
+            width: 200px;
+
+        }
+
+        .six {
+            display: inline-block;
+            width: 900px;
+            position: relative;
+            left: 30px;   
+            bottom: 1100px;
+            border: 10px solid #001C30;
+
+        }
+
+        #imge3 {
+            float: left;
+            height: 400px;
+            width: 900px;
+
+        }
+
+        .gurkha {
+            font-family: 'Agdasima', sans-serif;
+            font-size: 6rem;
+            color: #321E1E;
+
+        }
+
+        #gurkha {
+            font-family: 'Agdasima', sans-serif;
+            font-size: 30px;
+
+        }
+
+        #gurkhapara {
+            font-family: 'Agdasima', sans-serif;
+            font-size: 30px;
+            color: goldenrod;
+
+        }
+
+        .seven {
+        display: inline-block;
+        width: 400px;
+        position: relative;
+        left: 140px;  
+        bottom: 750px;
+        border: 10px solid#7E1717;
+        height: 1200px;
+        }
+
+         #olaimg {
+        float: right;
+        height: 300px;
+        width: 400px;
+
+        }
+
+         #olapara {
+        font-family: 'Agdasima', sans-serif;
+        font-size: 30px;
+
+        }
+
+        .olaev {
+        font-family: 'Agdasima', sans-serif;
+        font-size: 6rem;
+        color: #22A699;
+
+        }
+
+         #ifram {
+        display: inline-block;
+        height: 150px;
+        width: 360px;
+        }
+
+        .eight {
+        display: inline-block;
+        position: relative;
+        left: 40px;
+        bottom: 80px;
+        
+        }
+
+         #last1{
+        height: 400px;
+        width: 900px;
+        position: relative;
+        bottom: 1000px;
+
+         }
+
+        footer {           
+         text-align: center;
+         background-color: #27374D;
+         clear: both;
+         position: relative;
+         bottom: 1000px;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="box">
+
+        <div class="one">
+            <h1 id="autocar">AUTOCAR</h1>
+            <p id="p1">INDIA</p>
+        </div>
+
+        <div class="two">
+            <p class="twentytwo"> 22 </p>
+            <p id="nd"> nd </p>
+            <p id="anniversary"> ANNIVERSARY</p>
+            <p id="action"> 350+ ACTION-PACKED PAGES</p>
+            <p id="evs"> EVs GALORE!</p>
+            <p id="exclusive">EXCLUSIVE INDIA DRIVE</p>
+            <p id="tsla">Tesla</p>
+            <p id="model">MODEL 3</p>
+            <p id="foryou">Is this the <br> EV for you?</p>
+             <img id="tesla" src="./image/evoindia_2019-09_ff98e392-6b08-4294-a8f0-7dcccb6e004c__TF_170.avif" alt="tesla">
+            
+             <p id="compared">COMPARED</p>
+             <img id="vs" src="./image/20211001074603_1A.jpg" alt="imge">
+             <p id="etron">e-tron</p>
+             <p id="ss" >VS</p>
+             <p id="pace">I-Pace</p>
+             <p id="sv" >VS</p>
+             <p id="eqc">EQC</p>
+             <p id="luxury">Which one is the ultimate luxury EV?</p>
+             <p id="sentence">>> New Tigor EV <br> >> e-tron <br> >> Hyundai & Kia's EV plans <br> >> Fiar Millicento EV <br> >> Ola Elctric S1</p>
+             <p id="v"> vs</p>
+             <p id="indias">India's most affordable EV </p>
+             <p id="restomod">A restomod electrified</p>
+             <p id="train">e-train</p>
+             <p id="skipping"> Skipping town affordable EV</p>
+             <p id="Six">Six new models</p>
+             <p id="ola">First look at new e-scooter</p>
+
+        </div>
+
+        <div class="three">
+
+            <h1 class="mercedes">Mercedes-Benz EQS</h1>
+            <img id="imge1" src="./image/19.webp" alt="merce">
+            <p id="merceedes">The EQS grasps all the advantages an EV promises smoothness, peace, effortless performance and clever body packaging 
+                and blends all of the above with everything Mercedes has learned over several decades of building classy plutocrat barges. 
+                It's an exquisite vehicle to cover distance in, to drive or in which to be driven, finished nigh-on perfectly and peppered with attention to detail.
+                At last, it's a bespoke electric Mercedes. Up until now, there's been a reluctance about EVs from the company that invented the automobile. A sense of oh if we have to. Which is why the EQA, EQB, EQC crossovers and EQV van are all battery-stuffed versions of existing Mercedes underpinnings. And as a result, they're heavy and more cramped than a ground-up, clean-sheet EV.
+
+                That's what the EQS is: all-new. Not an electrified S-Class, but an S-Class sized luxury saloon riding on a new platform big enough to contain a massive 107.8kWh battery in its enormous wheelbase. It's a five-metre long riposte to all the EV newcomers. Mercedes is here for the new era, and it's thrown everything it's got at this flagship.</p>
+            
+        </div>
+
+        <div class="four">
+
+            <h1 class="Volvo">Volvo XC40 P8 Recharge</h1>
+            <img id="imge2" src="./image/18.webp" alt="volvo">
+            <p id="volvo">We loved the XC40 from the get-go but had a few reservations about the powertrains. Not any more. In battery-electric guise the XC40's
+                 worthier attributes  the thoughtful packaging, sense of well-being and design 
+                  are augmented by a remarkable new turn of speed and handling smarts.
+                   Like the Tesla Model 3 (and related Polestar 2), the XC40 P8 makes an almost irresistible case for electrification.</p>
+
+        </div>
+
+        <div class="five">
+            <img id="merceimg" src="./image/merce1.webp" alt="m1">
+            <img id="merceimg" src="./image/merce2.webp" alt="m2">
+            <img id="merceimg" src="./image/merce3.webp" alt="m3">
+            <img id="merceimg" src="./image/merce4.webp" alt="m4">
+            
+        </div>
+
+        <div class="six">
+        
+            <h1 class="gurkha">Force Gurkha Xtreme can now be yours.</h1>
+            <img id="imge3" src="./image/Force-Motors-Gurkha-Exterior-144597.webp" alt="gurkha">
+            <p id="gurkha">
+                The price of Force Gurkha starts at Rs. 14.75 Lakh and goes upto Rs. 14.75 Lakh. Force Gurkha is offered in 1 variants - the base model of Gurkha is 2.6 Diesel and the top variant Force Gurkha 2.6 Diesel which comes at a price tag of Rs. 14.75 Lakh.
+            </p>
+
+            <p id="gurkhapara">The Gurkha offers seating for three passengers plus a driver and has a fuel tank capacity of 63 litres. The interior includes door trims with a dark grey theme, a floor console with bottle holders, moulded floor mats, and seat upholstery with a dark grey theme.
+
+                For infotainment, the Gurkha is equipped with a 17.78 cm after market touch screen, four speakers, USB, FM, and Bluetooth connectivity for music and calling. It also supports Android Auto and Apple Carplay.
+                
+                In terms of safety, the Gurkha comes with airbags for the driver and co-driver, follow me home and lead me to Gurkha lighting, rear parking sensors, one-touch lane change indicators, cornering lamps, speed-sensing auto door locks, and a tyre pressure monitoring system. It also features front fog lamps and full LED headlamps with daytime running lights.
+                
+                For comfort and convenience, the Gurkha offers captain seats with armrests for second-row passengers, a total cabin space of 3900 litres, and a luggage space of 500 liters. It also has multi-directional AC vents, power windows, central locking, a 12V accessories socket in the dashboard, dual USB sockets on the dashboard, and dual USB sockets for second-row passengers. Entry for second-row passengers is from the rear.
+                
+                In terms of dimensions, the Gurkha has a wheelbase of 2400 mm, an overall length of 4116 mm, an overall width of 1812 mm, an overall height of 2075 mm, and front and rear track widths of 1490 mm and 1480 mm, respectively.</p>
+    </div>
+
+        <div class="seven">
+            <h1 class="olaev">Ola Electric S1</h1>
+            <img id="olaimg" src="./image/ola.webp" alt="ola">
+            <p id="olapara">Ola Electric Mobility (stylized as OLΛ ELECTRIC) is an Indian electric two-wheeler manufacturer, based in Bengaluru, Karnataka, India. It is India's largest electric two-wheeler manufacturer valued around US$6 billion as of May 2023. It has a manufacturing facility located in Krishnagiri, Tamil Nadu which is India's largest two-wheeler EV manufacturing factory.
+                Currently it offers an electric scooter named Ola S1 in three variants named Ola S1 Air, Ola S1 and S1 Pro. It plans to launch electric motorcycles by 2023 and an electric car by the end of 2024.</p>
+
+                <iframe id="ifram" width="560" height="315" src="https://www.youtube.com/embed/LSLx-wte1KY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe id="ifram" width="560" height="315" src="https://www.youtube.com/embed/G3JDo_JPVEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe id="ifram" width="560" height="315" src="https://www.youtube.com/embed/Jpt6wTwtLWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe id="ifram" width="560" height="315" src="https://www.youtube.com/embed/t_DeRvUq5rg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe id="ifram" width="560" height="315" src="https://www.youtube.com/embed/dYo4ETQe71c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        </div>
+
+        <div class="eight">
+            <img id="last1" src="./image/gurkha-new-exterior-front-view.webp" alt="">
+        </div>
+        
+    </div>
+
+    <footer>
+        
+            Copyright &copy;2023; Designed by UJ Magzine
+        
+    </footer>
+</body>
+</html>
